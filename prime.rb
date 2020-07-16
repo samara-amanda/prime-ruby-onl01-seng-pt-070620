@@ -1,8 +1,8 @@
 
 def prime?(num)
   n = 2
-
-  while n < num[n]
+  if num > -1
+    while n < num[n]
     if num % n == 0
       return false
     end
