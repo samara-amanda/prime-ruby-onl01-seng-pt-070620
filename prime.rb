@@ -1,7 +1,7 @@
 
 def prime?(num)
-  n = 2
-  
+  n = 0
+  n = num[n] - 1
   while n < num[n]
     if num % n == 0
       return false
