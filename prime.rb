@@ -10,3 +10,7 @@ def prime?(num)
   end
   return true
 end
+
+
+def prime?(num)
+  (2..(num - 1)).each do {|n| num % n == 0}
