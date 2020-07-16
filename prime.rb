@@ -5,7 +5,7 @@ def prime?(num)
     if num % n == 0
       return false
     end
+    n += 1
   end
   return true
-  n += 1
 end
